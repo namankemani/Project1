@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank Platform</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bank Platform</h1>
+      <div>
+        <h2>Register</h2>
+        <form id="register-form">
+          <input type="text" id="username" placeholder="Username" required />
+          <input type="password" id="password" placeholder="Password" required />
+          <button type="submit">Register</button>
+        </form>
+      </div>
+      <div>
+        <h2>Transaction</h2>
+        <form id="transaction-form">
+          <input type="number" id="user_id" placeholder="User ID" required />
+          <input type="number" id="amount" placeholder="Amount" required />
+          <select id="type">
+            <option value="deposit">Deposit</option>
+            <option value="withdrawal">Withdrawal</option>
+          </select>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

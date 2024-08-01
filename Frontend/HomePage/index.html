@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Fintech</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Why Fintech</a></li>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </nav>
+            <div>
+                <button class="btn-signup">Sign Up</button>
+                <button class="btn-Login" id="Login">Login</button>
+                <div id="loginModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h2>Login</h2>
+                      <form>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" required>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        <button type="submit">Submit</button>
+                      </form>
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero2">
+
+            <div>
+                <img src="../assets/12704375_5035121.jpg" alt="">
+            </div>
+            <div class="main container">
+                <h1>Banking that has your <span class="green">back!!</span></h1>
+                <p>Get paid up to 2 days early, fee-free overdraft, and more.</p>
+               <a href="/Frontend/QTransaction/transaction.html"> <button class="btn-cta">Quick Transactions</button></a>
+            </div>
+        </div>
+        </section>
+        
+        <section class="features">
+            <div class="container">
+                <h2>Why Fintech?</h2>
+                <div class="feature-item">
+                    <h3>No Hidden Fees</h3>
+                    <p> No minimum balance. No monthly fees. No foreign transaction fees.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Get Paid Early</h3>
+                    <p>Get your paycheck up to 2 days earlier with direct deposit.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Grow Your Savings</h3>
+                <p>Automatically grow your savings with every purchase or paycheck.</p>
+            </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Fintech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
